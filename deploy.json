@@ -1,0 +1,17 @@
+{
+  "development": {
+    "store": {
+      "type": "s3",
+      "accessKeyId": "AKIAJTH5XBJWXBLEJ4HA",
+      "secretAccessKey": "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",
+      "bucket": "joshchansard.com"
+    },
+
+    "assets": {
+      "type": "s3",
+      "accessKeyId": "AKIAJTH5XBJWXBLEJ4HA",
+      "secretAccessKey": "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",
+      "bucket": "joshchansard-assets"
+    }
+  }
+}
