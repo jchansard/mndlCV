@@ -1,0 +1,15 @@
+<div class="col-md-offset-{{offset}} col-md-{{width}} fill content">
+	{{#row-container}}
+		{{personal-overview id="aboutme" title="Overview" overview=model.overview}}
+	{{/row-container}}
+	{{#row-container}}
+		{{education-list id="education" title="Education" degrees=model.degrees}}
+	{{/row-container}}
+	{{#row-container}}
+		{{jobhistory-list id="jobhistory" title="Job History" jobs=model.jobs}}
+	{{/row-container}}
+	{{#row-container}}
+		{{project-list id="portfolio" title="Portfolio" projects=model.projects}}
+	{{/row-container}}
+</div>
+<div class="col-md-{{subtract-helper 12 width}}"></div>

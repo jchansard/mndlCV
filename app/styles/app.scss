@@ -1,0 +1,185 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+$contentBodyFont: 	 'Source Sans Pro';
+$contentHeaderFont:  'Titillium Web';
+$sidebarHeaderFont:  'Open Sans Condensed';
+$sidebarContentFont: 'Titillium Web';
+
+/* DEVICES */
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+/* COLORS */
+$bgColor: #003459;/*#00171F;*/
+
+$sidebarColor: rgba(0, 23, 31, .9);
+$sidebarFontColor: #F2F2FF;
+
+
+$contentBg: rgba(242, 242, 255, 1);
+
+$accentColor: #00A8E8;
+$lineColor: #007EA7;
+
+$activeColor: #00A8E8;
+$hoverColor: #007EA7;
+
+/* .body variables */
+$largeHeader: 40px;
+$largeMargin: 20px;
+$smallHeader: 24px;
+$smallMargin: 20px;
+
+.body {
+	background-color: $bgColor;
+
+	font-family: $contentBodyFont;
+
+	h2 {
+		margin-top:  $smallMargin;
+		font-family: $contentHeaderFont;
+		font-size:   $smallHeader;
+		border-bottom: 1px solid $accentColor;
+	}
+
+	@media(min-width: $screen-md-min) {
+		h2 {
+			margin-top: $largeMargin;
+			font-size:  $largeHeader;
+		}
+	}
+}
+
+.content {
+	background-color: $contentBg;
+	border-radius: 4px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	box-shadow: 0 0 .5em $bgColor;
+}
+
+.container-fluid {
+	background: url("/assets/bg-12.jpg") top center fixed; 
+	background-size: cover;
+}
+
+.sidebar {
+	position: fixed;
+	height: 100%;
+	background-color: $sidebarColor;
+	font-family: $sidebarContentFont;
+	text-align: center;
+	nav {
+		margin-top: 160px;	}
+	h2 {
+		padding: 8px;
+		margin-left: 12px;
+		margin-right: 12px;
+		border: 2px solid $sidebarFontColor;
+		text-align: center;
+		font-size:   $largeHeader;
+		font-family: $sidebarHeaderFont;
+		color: $sidebarFontColor;
+	}
+	.portrait {
+		height: 192px;
+		width: 192px;
+		border-radius:50%;
+		margin: auto;
+	}
+
+	ul.nav.nav-pills.nav-stacked {
+		li {
+			a {
+				border-radius: 0px;
+				font-size: 16px;
+			}
+
+			a.active {
+				background-color: $activeColor;	
+				color: $sidebarFontColor;
+			}
+
+			a:hover {
+				background-color: $hoverColor;
+				color: $sidebarFontColor;
+			}
+		}
+	}	
+}
+
+$largeCardPaddingLeft:  120px;
+$largeCardPaddingRight: 16px;
+$smallCardPaddingLeft:  40px;
+$smallCardPaddingRight: 4px;
+
+$largeLeftLinePos: -48px;
+$largeTopLinePos:   20px;
+$largeGlyphicon:    48px;
+$largeGlyphOffset: -22px;
+$smallLeftLinePos: -12px;
+$smallTopLinePos:   0px;
+$smallGlyphicon:    24px;
+$smallGlyphOffset: -10px;
+
+
+.card {
+	height: 100%;
+	padding-left:  $smallCardPaddingLeft;
+	padding-right: $smallCardPaddingRight;
+	@media (min-width: $screen-md-min) {
+		padding-left:  $largeCardPaddingLeft;
+		padding-right: $largeCardPaddingRight;
+	}
+}
+
+.vertical-line {
+	position: absolute;
+	left: $smallLeftLinePos;
+	background-color: $lineColor;
+	height: 100%;
+	width: 4px;
+	color: $lineColor;
+
+	@media (min-width: $screen-md-min) {
+		left: $largeLeftLinePos;
+	}
+
+	.glyphicon {
+		left: $smallGlyphOffset;
+		top: $smallTopLinePos;
+		background-color: $contentBg;
+		padding-top: 2px;
+		font-size: $smallGlyphicon;
+
+		@media (min-width: $screen-md-min) {
+			left: $largeGlyphOffset;
+			top: $largeTopLinePos;
+			font-size: $largeGlyphicon;
+		}
+	}
+}
+
+.overview {
+	h2 {
+		margin-top: 20px;
+	}
+	.name {
+		font-weight: bold;
+	}
+}
+
+.project {
+	img {
+		height: 400px;
+		width: 600px;
+	}
+}
+
+.portrait {
+	background: url("/assets/portrait-2.png");
+}

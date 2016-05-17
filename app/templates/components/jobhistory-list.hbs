@@ -1,0 +1,8 @@
+{{timeline-component icon="edit"}}
+<h2>{{title}}</h2>
+<ul>
+	{{#each jobs as |job|}}
+    <li>{{job.position}} at {{job.company}} ({{job.start}} to {{job.end}})</li>
+    {{/each}}
+    <div style="height:500px">fake height to test scrolling</div>
+</ul>

@@ -1,0 +1,11 @@
+{{timeline-component icon="education"}}
+<h2>{{title}}</h2>
+{{#each degrees as |degree|}}
+<ul>
+	<li>{{degree.school}} {{degree.dates}}</li>
+	<ul>
+		<li>{{degree.degree}} in {{degree.major}}</li>
+		<li>GPA: {{degree.gpa}}</li>
+	</ul>
+</ul>
+{{/each}}
