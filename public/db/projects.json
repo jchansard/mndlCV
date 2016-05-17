@@ -1,13 +1,23 @@
 {
-	"data": {
+	"data": [{
 		"type": "projects",
 		"id": "1",
 		"attributes": {
 			"name": "mndltest",
-			"overview": "A javascript TDD testing framework that handles outputting results into a beautiful HTML document",
+			"overview": "a javascript TDD testing framework that handles outputting results into a beautiful HTML document",
 			"url": "https://github.com/jchansard/mndltest",
-			"screenshot": "https://camo.githubusercontent.com/0ed9aff92ba069b972a27cd8525fd0388350b0c7/687474703a2f2f692e696d6775722e636f6d2f51716468457a612e706e67",
+			"screenshot": "/assets/mndltest.png",
 			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 
 		}
-	}
+	},{
+		"type": "projects",
+		"id": "2",
+		"attributes": {
+			"name": "mandlegaem",
+			"overview": "a javascript zombie survival game",
+			"url": "https://github.com/jchansard/mandlegaem",
+			"screenshot": "/assets/mndlgaem.png",
+			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 			
+		}
+	}]
 }

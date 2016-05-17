@@ -1,0 +1,17 @@
+{
+	"data": [{
+		"type": "skills", 
+		"id": 1,
+		"attributes": 
+			{
+				"name": "JavaScript"
+			}
+		},{
+		"type": "skills",
+		"id": 2,
+		"attributes":
+			{
+				"name": "Excel"
+			}
+		}]
+}

@@ -1,11 +1,11 @@
 {{timeline-component icon="education"}}
 <h2>{{title}}</h2>
+<ul class="list-unstyled">
 {{#each degrees as |degree|}}
-<ul>
-	<li>{{degree.school}} {{degree.dates}}</li>
-	<ul>
-		<li>{{degree.degree}} in {{degree.major}}</li>
-		<li>GPA: {{degree.gpa}}</li>
+	<li class="emphasize">{{degree.degree}}, <span class="bold">{{degree.major}}</span></li>
+	<ul>	
+		<li>{{degree.school}} <span class="italic">{{degree.dates}}</span></li>
+		<li>{{degree.gpa}} GPA</li>
 	</ul>
-</ul>
 {{/each}}
+</ul>

@@ -4,6 +4,7 @@ import DS from 'ember-data';
 export default Model.extend({
 	position: DS.attr('string'),
 	company:  DS.attr('string'),
+	summary:  DS.attr(),
 	start:    DS.attr('string'),
 	end: 	  DS.attr('string')
 });

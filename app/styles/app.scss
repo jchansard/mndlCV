@@ -22,16 +22,18 @@ $sidebarFontColor: #F2F2FF;
 
 $contentBg: rgba(242, 242, 255, 1);
 
-$accentColor: #00A8E8;
-$lineColor: #007EA7;
+$accentColor: #007EA7; /*#00A8E8;*/
+$lineColor: $accentColor;
 
 $activeColor: #00A8E8;
 $hoverColor: #007EA7;
 
 /* .body variables */
 $largeHeader: 40px;
+$largeH3:     18px;
 $largeMargin: 20px;
 $smallHeader: 24px;
+$smallH3:     14px;
 $smallMargin: 20px;
 
 .body {
@@ -99,13 +101,13 @@ $smallMargin: 20px;
 				font-size: 16px;
 			}
 
-			a.active {
-				background-color: $activeColor;	
+			a:hover {
+				background-color: $hoverColor;
 				color: $sidebarFontColor;
 			}
 
-			a:hover {
-				background-color: $hoverColor;
+			a.active {
+				background-color: $activeColor;	
 				color: $sidebarFontColor;
 			}
 		}
@@ -115,7 +117,7 @@ $smallMargin: 20px;
 $largeCardPaddingLeft:  120px;
 $largeCardPaddingRight: 16px;
 $smallCardPaddingLeft:  40px;
-$smallCardPaddingRight: 4px;
+$smallCardPaddingRight: 12px;
 
 $largeLeftLinePos: -48px;
 $largeTopLinePos:   20px;
@@ -168,18 +170,78 @@ $smallGlyphOffset: -10px;
 	h2 {
 		margin-top: 20px;
 	}
-	.name {
-		font-weight: bold;
+}
+
+.education, .jobhistory {;
+	ul {
+		/*padding-left: 0px;*/
+
+		ul {
+			margin-bottom: 4px;
+			li {
+				/*padding-left: 40px;*/
+			}
+		}
+
+		@media (min-width: $screen-md-min) {
+			li.emphasize {
+				font-size: $largeH3;
+			}
+		}
 	}
 }
 
 .project {
-	img {
-		height: 400px;
-		width: 600px;
+	margin-left: 0px;
+
+	.img-container {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		overflow: hidden;
+		height: 180px;
+	}
+
+	@media (min-width: $screen-md-min) {
+		margin-bottom: 10px;
 	}
 }
 
 .portrait {
 	background: url("/assets/portrait-2.png");
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.right {
+	margin-left: 4px;
+	float: right;
+}
+
+.underborder {
+	border-bottom: 1px solid;
+}
+
+.accentFill {
+	background-color: $accentColor;
+}
+
+.emphasize {
+	font-size: $smallH3;
+	font-family: $contentHeaderFont;
+}
+
+@media(min-width: $screen-md-min) {
+	.emphasize {
+		font-size: $largeH3;
+	}
+
+	.outline {
+		border: 1px solid $accentColor;
+	}
 }

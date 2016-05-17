@@ -1,12 +1,14 @@
+{{image-gallery}}
 {{timeline-component icon="folder-open"}}
 <h2>{{title}}</h2>
-<ul>
-	{{#each projects as |project|}}
-    <div class="project">
-    	<a href="{{project.url}}"><img src={{project.screenshot}}/></a><br/>
-    	<a href="{{project.url}}">{{project.name}}</a>
-    	<p><i>{{project.overview}}</i></p>
-   		<p>{{project.contribution}}</p>
+{{#each projects as |project|}}
+	<div class="project row">
+    	<div class="col-md-4 outline">
+    		<div class="img-container"><a href="{{project.url}}"><img src={{project.screenshot}}/></a></div>
+    	</div>
+    	<div class="col-md-8">
+    		<h4><a class="emphasize bold" href="{{project.url}}">{{project.name}}:</a> <span class="italic">{{project.overview}}</span></h4>
+    		<p>{{project.contribution}}</p>
+    	</div>
     </div>
-    {{/each}}
-</ul>
+{{/each}}

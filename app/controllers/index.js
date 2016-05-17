@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
 	queryParams: ['section'],
-	sections: ['About Me', 'Education', 'Job History', 'Portfolio'],
+	sections: ['About Me', 'Education', 'Job History', 'Portfolio', 'Skills'],
 	section: undefined,
 
 	scrollToSection: Ember.observer('section', function() {
@@ -20,5 +20,11 @@ export default Ember.Controller.extend({
 				scrollTop: Ember.$('#' + section).offset().top
 			}, 200);
 		});
-	})
+	}),
+
+	actions: {
+		setGalleryImage(src) {
+			console.log(src);
+		}
+	}
 });

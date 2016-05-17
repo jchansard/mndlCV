@@ -1,13 +1,14 @@
 {
 	"data": [{
-		"type": "past-job", 
+		"type": "past-job",
 		"id": 1,
-		"attributes": 
+		"attributes":
 			{
-				"company": "Vlogadoodle",
-				"position": "Proofreader",
-				"start": "September 2009",
-				"end": "April 2011"
+				"company": "Epic",
+				"position": "Software Development",
+				"start": "January 2015",
+				"end": "Present",
+				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
 			}
 		},{
 		"type": "past-job",
@@ -15,9 +16,21 @@
 		"attributes":
 			{
 				"company": "Epic",
-				"position": "QA",
+				"position": "Quality Assurance",
 				"start": "May 2011",
-				"end": "Present"
+				"end": "Present",
+				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
+			}
+		},{
+		"type": "past-job", 
+		"id": 3,
+		"attributes": 
+			{
+				"company": "Vlogadoodle",
+				"position": "Proofreader",
+				"start": "September 2009",
+				"end": "April 2011",
+				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
 			}
 		}]
 }

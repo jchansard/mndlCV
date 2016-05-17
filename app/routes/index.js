@@ -6,7 +6,8 @@ export default Ember.Route.extend({
 				overview: this.store.findRecord('overview', 1),
       			degrees:  this.store.findAll('degree'),
       			jobs:     this.store.findAll('past-job'),
-      			projects: this.store.findAll('project')
+      			projects: this.store.findAll('project'),
+      			skills:   this.store.findAll('skill')
     	});
 	},
 	// renderTemplate() 
