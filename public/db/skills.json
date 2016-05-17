@@ -4,14 +4,24 @@
 		"id": 1,
 		"attributes": 
 			{
-				"name": "JavaScript"
+				"name": "JavaScript",
+				"type": "technical"
 			}
 		},{
 		"type": "skills",
 		"id": 2,
 		"attributes":
 			{
-				"name": "Excel"
+				"name": "Excel",
+				"type": "misc"
+			}
+		},{
+		"type": "skills",
+		"id": 3,
+		"attributes":
+			{
+				"name": "Ember.js",
+				"type": "technical"
 			}
 		}]
 }

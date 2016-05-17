@@ -1,7 +1,12 @@
 {{timeline-component icon="certificate"}}
 <h2>{{title}}</h2>
-<ul class="list-inline">
-{{#each skills as |skill|}}
-	<li>{{skill.name}}</li>
+{{#each sections as |section|}}
+	<ul class="list-inline">
+		<li class="emphasize text-capitalize">{{section.name}}</li>
+		<ul>
+			{{#each section.skills as |skill|}}
+				<li>{{skill}}</li>
+			{{/each}}
+		</ul>
+	</ul>
 {{/each}}
-</ul>
