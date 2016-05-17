@@ -6,7 +6,13 @@
 			"name": "mndltest",
 			"overview": "a javascript TDD testing framework that handles outputting results into a beautiful HTML document",
 			"url": "https://github.com/jchansard/mndltest",
-			"screenshot": "/assets/mndltest.png",
+			"screenshot": [{
+				"src": "/assets/mndltest.png",
+				"title": "mndltest",
+				"w": 948,
+				"h": 610,
+				"msrc": "(optional) larger image"
+				}],
 			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 
 		}
 	},{
@@ -16,7 +22,12 @@
 			"name": "mandlegaem",
 			"overview": "a javascript zombie survival game",
 			"url": "https://github.com/jchansard/mandlegaem",
-			"screenshot": "/assets/mndlgaem.png",
+			"screenshot": [{
+				"src": "/assets/mndlgaem.png",
+				"title": "mandlegaem",
+				"w": 650,
+				"h": 490
+				}],
 			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 			
 		}
 	}]

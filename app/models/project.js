@@ -5,6 +5,6 @@ export default Model.extend({
   name: 		attr('string'),
   overview: 	attr('string'),
   url: 			attr('string'),
-  screenshot: 	attr('string'),
+  screenshot: 	attr(),
   contribution: attr('string')
 });

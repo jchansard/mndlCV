@@ -4,7 +4,11 @@
 {{#each projects as |project|}}
 	<div class="project row">
     	<div class="col-md-4 outline">
-    		<div class="img-container"><a href="{{project.url}}"><img src={{project.screenshot}}/></a></div>
+	    	<div class="img-container">
+	    		{{#photo-swipe items=project.screenshot as |img|}}
+	    			<img class="thumb" src={{img.src}} alt={{img.title}}/>
+	    		{{/photo-swipe}}
+	    	</div>
     	</div>
     	<div class="col-md-8">
     		<h4><a class="emphasize bold" href="{{project.url}}">{{project.name}}:</a> <span class="italic">{{project.overview}}</span></h4>
