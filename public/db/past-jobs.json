@@ -6,9 +6,10 @@
 			{
 				"company": "Epic",
 				"position": "Software Development",
-				"start": "January 2015",
+				"start": "January 2016",
 				"end": "Present",
-				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
+				"summary": "Developed and maintained functionality for sending and receiving letters and reports to and from healthcare providers and patients using M, Visual Basic, HTML and CSS. Developed many tools for testers using a variety of languages including JavaScript and Python.",
+				"achievs": ["Testability trailblazer: incorporated automated testing into team's development process, and created a unit test library for team's functionality","A bug in healthcare software can have life-and-death implications, and on many occasions I deployed critical fixes on extremely escalated timelines","Developed a system for indexing available testing tools' documentation pages and a corresponding search engine (cf. Portfolio) using JavaScript and the MediaWiki API; indexes over two hundred tools, and this number grows constantly"]
 			}
 		},{
 		"type": "past-job",
@@ -19,18 +20,8 @@
 				"position": "Quality Assurance",
 				"start": "May 2011",
 				"end": "Present",
-				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
-			}
-		},{
-		"type": "past-job", 
-		"id": 3,
-		"attributes": 
-			{
-				"company": "Vlogadoodle",
-				"position": "Proofreader",
-				"start": "September 2009",
-				"end": "April 2011",
-				"summary": ["Bacon ipsum dolor amet turkey hamburger filet mignon drumstick ribeye tail shoulder, fatback shank strip steak sirloin chuck porchetta landjaeger.","Sausage tail ham ground round filet mignon alcatra venison short loin fatback meatloaf biltong andouille cupim bresaola. Salami ball tip venison fatback rump frankfurter alcatra corned beef pork prosciutto pig leberkas sirloin. Pork chop filet mignon leberkas bresaola meatball drumstick."]
+				"summary": "Worked alongside developers, technical services, implementation services, and end users to ensure that the software we released was of the best achievable quality. As the last pair of eyes on fixes and new functionality that could save lives, this job entailed taking on many roles, both technical and not: ultimately, I worked to push both our software and our development process to be as excellent as they could possibly be.",
+				"achievs": ["Testing Automation Point Person for Epic's largest application: worked with test engineers to design and implement testing tools to improve the quality of our testing","User Experience Guru: worked often with end users to gather usability feedback, and worked with developers to translate this feedback into functionality","Strong technical tester: often sought first for troubleshooting questions, I was also part of a \"Bug Buster\" task force that worked on our team's riskiest development. In my testing, I found and submitted over 2200 bug reports."]
 			}
 		}]
 }

@@ -1,5 +1,5 @@
 <nav class="nav fill">
-    {{nav-left-header name=model.overview}}
+    {{nav-left-header overview=model.overview}}
 	<ul class="nav nav-pills nav-stacked">
 		{{#each sections as |section|}}
 	  	<li role="presentation">{{#link-to "index" (query-params section=section)}}{{section}}{{/link-to}}</li>

@@ -10,12 +10,13 @@ export default Ember.Component.extend({
 		this.get('skills').forEach((skill) =>
 		{
 			let type = skill.get('type');
+			let skillDescription = `${skill.get('name')}: ${skill.get('description')}`
 			if (sectionsObject[type] === undefined) {
-				sectionsObject[type] = [skill.get('name')];
+				sectionsObject[type] = [skillDescription];
 			}
 			else
 			{
-				sectionsObject[type].push(skill.get('name'));
+				sectionsObject[type].push(skillDescription);
 			}
 		});
 		Object.keys(sectionsObject).forEach((key) =>
@@ -25,6 +26,8 @@ export default Ember.Component.extend({
 				skills: sectionsObject[key]
 			});
 		});
+		console.log(sectionsObject);
+		console.log(sectionsArray);
 		return sectionsArray;	
 	})
 });

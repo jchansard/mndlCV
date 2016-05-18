@@ -10,9 +10,11 @@
 	    		{{/photo-swipe}}
 	    	</div>
     	</div>
-    	<div class="col-md-8">
-    		<h4><a class="emphasize bold" href="{{project.url}}">{{project.name}}:</a> <span class="italic">{{project.overview}}</span></h4>
-    		<p>{{project.contribution}}</p>
+    	<div class="col-md-8 project-description">
+            <h4>{{#if project.url}}<a href="{{project.url}}"><span class="emphasize bold">{{project.name}}:</span></a>
+            {{else}}<span class="emphasize bold">{{project.name}}:</span>{{/if}}
+            <span class="italic">{{project.overview}}</span></h4>
+        	<p>{{project.contribution}}</p>
     	</div>
     </div>
 {{/each}}

@@ -35,6 +35,7 @@ $largeMargin: 20px;
 $smallHeader: 24px;
 $smallH3:     14px;
 $smallMargin: 20px;
+$subHeader:   18px;
 
 .body {
 	background-color: $bgColor;
@@ -77,13 +78,26 @@ $smallMargin: 20px;
 	text-align: center;
 	nav {
 		margin-top: 160px;	}
+
+	.name-callout {
+		border: 2px solid $sidebarFontColor;
+		margin: 12px 0px;
+	}
 	h2 {
+		border: 0px;
 		padding: 8px;
 		margin-left: 12px;
 		margin-right: 12px;
-		border: 2px solid $sidebarFontColor;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		text-align: center;
 		font-size:   $largeHeader;
+		font-family: $sidebarHeaderFont;
+		color: $sidebarFontColor;
+	}
+	h3 	{
+		font-size: $subHeader;
+		margin-top: 0px;
 		font-family: $sidebarHeaderFont;
 		color: $sidebarFontColor;
 	}
@@ -204,11 +218,19 @@ $smallGlyphOffset: -10px;
 
 	@media (min-width: $screen-md-min) {
 		margin-bottom: 10px;
+
+		.project-description {
+			display: flex;
+			min-height: 210px;
+    		justify-content:center;
+    		align-content:center;
+    		flex-direction:column;
+		}
 	}
 }
 
 .portrait {
-	background: url("/assets/portrait-2.png");
+	background: url("/assets/portrait.jpg");
 }
 
 .bold {

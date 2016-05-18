@@ -1,19 +1,7 @@
 {
 	"data": [{
-		"type": "degrees", 
-		"id": 1,
-		"attributes": 
-			{
-				"school": "Pomona College",
-				"start": "2005",
-				"end": "2009",
-				"degree": "Bachelor of Arts",
-				"major": "Linguistics & Cognitive Science",
-				"gpa": "3.75"
-			}
-		},{
 		"type": "degrees",
-		"id": 2,
+		"id": 1,
 		"attributes":
 			{
 				"school": "University of Wisconsin",
@@ -22,6 +10,18 @@
 				"degree": "Professional Capstone Certificate",
 				"major": "Computer Science",
 				"gpa": "3.9"
+			}
+		},{
+		"type": "degrees", 
+		"id": 2,
+		"attributes": 
+			{
+				"school": "Pomona College",
+				"start": "2005",
+				"end": "2009",
+				"degree": "Bachelor of Arts",
+				"major": "Linguistics & Cognitive Science",
+				"gpa": "3.75"
 			}
 		}]
 }

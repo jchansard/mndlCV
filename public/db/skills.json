@@ -4,7 +4,8 @@
 		"id": 1,
 		"attributes": 
 			{
-				"name": "JavaScript",
+				"name": "JavaScript (and JSON, AJAX)",
+				"description": "Besides being very comfortable with the language itself, I'm familiar with jQuery and jQuery UI, Ember.js, Node.js, RequireJS, Sinon.js, REST APIs, and other libraries, APIs, and frameworks. My portfolio (above) has some examples of Javascript projects I've done.",
 				"type": "technical"
 			}
 		},{
@@ -12,16 +13,99 @@
 		"id": 2,
 		"attributes":
 			{
-				"name": "Excel",
-				"type": "misc"
+				"name": "HTML (and HTML5)",
+				"description": "I've built several web sites and dozens of wiki pages (cf. Portfolio).",
+				"type": "technical"
 			}
 		},{
 		"type": "skills",
 		"id": 3,
 		"attributes":
 			{
-				"name": "Ember.js",
+				"name": "CSS",
+				"description": "This web site uses some Bootstrap and SASS, and I'm familiar with LESS, as well.",
 				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 4,
+		"attributes":
+			{
+				"name": "Java, C++, Python, and Ruby (with Rails)",
+				"description": "I've worked with each of these languages to varying degrees, in classes I've taken and in personal tinkering projects.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 5,
+		"attributes":
+			{
+				"name": "Visual Basic and M",
+				"description": "These are the languages I work with at Epic.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 6,
+		"attributes":
+			{
+				"name": "Git and SVN",
+				"description": "I've used Git for all of my personal projects (both GUI and command line, with a preference for command line). I use SVN at Epic.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 7,
+		"attributes":
+			{
+				"name": "Linux (and SSH)",
+				"description": "I use a Linux VM for my pesonal projects, and I use PuTTY at Epic.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 8,
+		"attributes":
+			{
+				"name": "SQL",
+				"description": "Used heavily at Epic for operational reporting.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 9,
+		"attributes":
+			{
+				"name": "Microsoft Office",
+				"description": "I'm very comfortable with the MS Office suite, and have written Excel VB macros for various one-off tasks",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 10,
+		"attributes":
+			{
+				"name": "Typing",
+				"description": "I can type comfortably at 110 WPM (120 on a good day).",
+				"type": "other"
+			}
+		},{
+		"type": "skills",
+		"id": 11,
+		"attributes":
+			{
+				"name": "French",
+				"description": "I'm a native English speaker, but I speak French fluently.",
+				"type": "other"
+			}
+		},{
+		"type": "skills",
+		"id": 12,
+		"attributes":
+			{
+				"name": "Coffee",
+				"description": "Did I mention I always refill the coffee pot?",
+				"type": "other"
 			}
 		}]
 }

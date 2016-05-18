@@ -2,10 +2,10 @@
 <h2>{{title}}</h2>
 {{#each sections as |section|}}
 	<ul class="list-inline">
-		<li class="emphasize text-capitalize">{{section.name}}</li>
+		<li class="emphasize italic text-capitalize">{{section.name}}</li>
 		<ul>
 			{{#each section.skills as |skill|}}
-				<li>{{skill}}</li>
+				<li>{{bold-first-piece skill ":"}}</li>
 			{{/each}}
 		</ul>
 	</ul>

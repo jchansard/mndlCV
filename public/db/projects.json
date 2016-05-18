@@ -4,7 +4,7 @@
 		"id": "1",
 		"attributes": {
 			"name": "mndltest",
-			"overview": "a javascript TDD testing framework that handles outputting results into a beautiful HTML document",
+			"overview": "a JavaScript TDD testing framework",
 			"url": "https://github.com/jchansard/mndltest",
 			"screenshot": [{
 				"src": "/assets/mndltest.png",
@@ -13,14 +13,59 @@
 				"h": 610,
 				"msrc": "(optional) larger image"
 				}],
-			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 
+			"contribution": "Created from the ground up as a learning experience and for use with personal projects. Supports the most important assertions, can simulate events, and handles outputting results into a beautiful HTML document. I like to use it with sinon.js." 
 		}
 	},{
 		"type": "projects",
 		"id": "2",
 		"attributes": {
+			"name": "Testing Tools Search",
+			"overview": "a testing tool database and search engine",
+			"url": "",
+			"screenshot": [{
+				"src": "/assets/testingtoolssearch.png",
+				"title": "Testing Tools Search",
+				"w": 1500,
+				"h": 850
+				}],
+			"contribution": "Epic is a large company, and each team has its own way of documenting testing tools it creates. I saw this as a problem, and I spearheaded an effort to index all of these pages, and I created a very flexible and exhaustive MediaWiki template for new wikis. I then leveraged the MediaWiki database and API to create a dynamic testing tool search engine that can filter by keyword and other tags."
+		}
+	},{
+		"type": "projects",
+		"id": "3",
+		"attributes": {
+			"name": "Software Lifecycle Processes Internal Web Site",
+			"overview": "documents Epic's processes in an easily-navigable format",
+			"url": "",
+			"screenshot": [{
+				"src": "/assets/processes.png",
+				"title": "Software Lifecycle Processes Internal Web Site",
+				"w": 1660,
+				"h": 850
+				}],
+			"contribution": "I volunteered to create this web site to satisfy an ISO requirement; it was a personal requirement that it be easy on the eyes and easy to navigate. Because I wasn't to be responsible for the content, it had to be created in a maintainable way that allowed people unfamiliar with HTML to update it."
+		}
+	},{
+		"type": "projects",
+		"id": "4",
+		"attributes": {
+			"name": "mndlCV",
+			"overview": "my curriculum vitae Ember.js app",
+			"url": "https://github.com/jchansard/mndlCV",
+			"screenshot": [{
+				"src": "/assets/mndlCV.png",
+				"title": "mndlCV",
+				"w": 800,
+				"h": 464
+				}],
+			"contribution": "I wanted to create a personal web site, and I wanted to learn Ember.js, and you're looking at the result! As an Ember app, it could easily be reused to build similar resume pages."
+		}
+	},{
+		"type": "projects",
+		"id": "5",
+		"attributes": {
 			"name": "mandlegaem",
-			"overview": "a javascript zombie survival game",
+			"overview": "a JavaScript zombie survival game",
 			"url": "https://github.com/jchansard/mandlegaem",
 			"screenshot": [{
 				"src": "/assets/mndlgaem.png",
@@ -28,7 +73,22 @@
 				"w": 650,
 				"h": 490
 				}],
-			"contribution": "Created from the ground up as a learning experience and for use with personal projects" 			
+			"contribution": "This was a personal project I started in 2014 and finished a year later: I wanted to improve my grasp on JavaScript and learn the ins and outs of Git, and thus a small strategy game was born." 			
+		}
+	},{
+		"type": "projects",
+		"id": "6",
+		"attributes": {
+			"name": "mndlgaem2",
+			"overview": "another JavaScript strategy game, built using Electron",
+			"url": "https://github.com/jchansard/mandlegaem",
+			"screenshot": [{
+				"src": "/assets/mndlgaem2.png",
+				"title": "mandlegaem2",
+				"w": 639,
+				"h": 570
+				}],
+			"contribution": "Another personal project, and another strategy game; this one is more ambitious, and is still under development: as an Electron application, it's my first public foray into an app built on Node.js. I've learned a lot from it, and I plan to keep learning!" 			
 		}
 	}]
 }

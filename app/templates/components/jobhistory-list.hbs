@@ -3,9 +3,10 @@
 <ul class="list-unstyled">
 	{{#each jobs as |job|}}
     	<li class="emphasize"><span class="bold">{{job.position}}</span> at {{job.company}} <span class="right">({{job.start}} to {{job.end}})</span></li>
+    	<li>{{job.summary}}</li>
     	<ul>
-    		{{#each job.summary as |accomplishment|}}
-    			<li>{{accomplishment}}</li>
+    		{{#each job.achievs as |achievement|}}
+    			<li>{{bold-first-piece achievement ":"}}</li>
     		{{/each}}
     	</ul>
     {{/each}}

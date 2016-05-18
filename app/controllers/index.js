@@ -23,8 +23,5 @@ export default Ember.Controller.extend({
 	}),
 
 	actions: {
-		setGalleryImage(src) {
-			console.log(src);
-		}
 	}
 });

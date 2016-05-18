@@ -4,5 +4,5 @@ import attr from 'ember-data/attr';
 export default Model.extend({
 	name: attr('string'),
 	type: attr('string'),
-	competency: attr('string')
+	description: attr('string')
 });
