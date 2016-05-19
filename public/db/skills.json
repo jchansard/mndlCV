@@ -40,8 +40,8 @@
 		"id": 5,
 		"attributes":
 			{
-				"name": "Visual Basic and M",
-				"description": "These are the languages I work with at Epic.",
+				"name": "Visual Basic and MUMPS",
+				"description": "Used at Epic.",
 				"type": "technical"
 			}
 		},{
@@ -50,7 +50,7 @@
 		"attributes":
 			{
 				"name": "Git and SVN",
-				"description": "I've used Git for all of my personal projects (both GUI and command line, with a preference for command line). I use SVN at Epic.",
+				"description": "I've used Git for all of my personal projects (both GUI and command line, with a preference for command line); I've used SVN for work projects.",
 				"type": "technical"
 			}
 		},{
@@ -59,7 +59,7 @@
 		"attributes":
 			{
 				"name": "Linux (and SSH)",
-				"description": "I use a Linux VM for my pesonal projects, and I use PuTTY at Epic.",
+				"description": "I use a Linux VM for my pesonal projects, and I've used PuTTY for SSH.",
 				"type": "technical"
 			}
 		},{
@@ -68,7 +68,7 @@
 		"attributes":
 			{
 				"name": "SQL",
-				"description": "Used heavily at Epic for operational reporting.",
+				"description": "Used for operational reporting.",
 				"type": "technical"
 			}
 		},{

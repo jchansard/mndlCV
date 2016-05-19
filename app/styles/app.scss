@@ -77,13 +77,16 @@ $smallEmphasize: 16px;
 	background-color: $sidebarColor;
 	font-family: $sidebarContentFont;
 	text-align: center;
-	nav {
-		margin-top: 160px;	}
 
-	.name-callout {
+	.callout {
 		border: 2px solid $sidebarFontColor;
 		margin: 12px 0px;
 	}
+
+	nav {
+		margin-top: 25%;	
+	}
+
 	h2 {
 		border: 0px;
 		padding: 8px;
@@ -110,6 +113,7 @@ $smallEmphasize: 16px;
 	}
 
 	ul.nav.nav-pills.nav-stacked {
+		padding-bottom: 12px;
 		li {
 			a {
 				border-radius: 0px;
@@ -138,6 +142,13 @@ $topbarButtonBg: #337ab7;
 	height: 48px;
 	margin-bottom: 0px;
 	border: 0px;
+
+	.topbar-btn {
+		display: inline-block;
+
+		vertical-align: -2px;
+		margin-right: 4px;
+	}
 
 	.navbar-brand {
 		padding: 0px;
@@ -293,6 +304,21 @@ $smallGlyphOffset: -10px;
 .emphasize {
 	font-size: $smallEmphasize;
 	font-family: $contentHeaderFont;
+}
+
+a.btn-linkedin:link, a.btn-linkedin:visited, a.btn-linkedin:hover {
+	text-decoration: none;
+	color: $sidebarFontColor;
+}
+
+.btn-linkedin {
+	.fa-linkedin {
+		padding: 5px;
+		margin-right: 4px;
+		border-radius: 4px;
+		background-color: #4875B4;
+		color: $sidebarFontColor;
+	}
 }
 
 
