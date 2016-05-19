@@ -133,7 +133,7 @@ $topbarButtonBg: #337ab7;
 
 .topbar {
 	background-color: $sidebarColor;
-	font-family: $sidebarHeaderFont;
+	font-family: $sidebarContentFont;
 	min-height: 48px;
 	height: 48px;
 	margin-bottom: 0px;
@@ -148,6 +148,7 @@ $topbarButtonBg: #337ab7;
 		line-height: 48px;
 		margin: 0px 12px;
 		color: $sidebarFontColor;
+		font-family: $sidebarHeaderFont;
 	}
 
 	.btn {
@@ -155,7 +156,6 @@ $topbarButtonBg: #337ab7;
 		background-color: $topbarButtonBg;
 		border-color: $sidebarFontColor;
 		color: $sidebarFontColor;
-		font-family: $sidebarContentFont;
 	}
 
 	.portrait {
