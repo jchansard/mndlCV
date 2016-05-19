@@ -36,6 +36,7 @@ $smallHeader: 24px;
 $smallH3:     14px;
 $smallMargin: 20px;
 $subHeader:   18px;
+$smallEmphasize: 16px;
 
 .body {
 	background-color: $bgColor;
@@ -128,6 +129,42 @@ $subHeader:   18px;
 	}	
 }
 
+$topbarButtonBg: #337ab7;
+
+.topbar {
+	background-color: $sidebarColor;
+	font-family: $sidebarHeaderFont;
+	min-height: 48px;
+	height: 48px;
+	margin-bottom: 0px;
+	border: 0px;
+
+	.navbar-brand {
+		padding: 0px;
+		height: 100%;
+	}
+
+	.navbar-brand.navbar-text {
+		line-height: 48px;
+		margin: 0px 12px;
+		color: $sidebarFontColor;
+	}
+
+	.btn {
+		margin: 7px;
+		background-color: $topbarButtonBg;
+		border-color: $sidebarFontColor;
+		color: $sidebarFontColor;
+		font-family: $sidebarContentFont;
+	}
+
+	.portrait {
+		height: 48px;
+		width: 48px;
+		background-size: 100%;
+	}
+}
+
 $largeCardPaddingLeft:  120px;
 $largeCardPaddingRight: 16px;
 $smallCardPaddingLeft:  40px;
@@ -207,6 +244,7 @@ $smallGlyphOffset: -10px;
 
 .project {
 	margin-left: 0px;
+	border-bottom: 1px solid $accentColor;
 
 	.img-container {
 		cursor: pointer;
@@ -218,6 +256,7 @@ $smallGlyphOffset: -10px;
 
 	@media (min-width: $screen-md-min) {
 		margin-bottom: 10px;
+		border-bottom: 0px;
 
 		.project-description {
 			display: flex;
@@ -241,22 +280,26 @@ $smallGlyphOffset: -10px;
 	font-style: italic;
 }
 
-.right {
-	margin-left: 4px;
-	float: right;
+.right-if-wide {
+	display: block;
+	@media (min-width: $screen-md-min) {
+		float: right;
+	}
 }
-
-.underborder {
-	border-bottom: 1px solid;
-}
-
 .accentFill {
 	background-color: $accentColor;
 }
 
 .emphasize {
-	font-size: $smallH3;
+	font-size: $smallEmphasize;
 	font-family: $contentHeaderFont;
+}
+
+
+@media (max-width: $screen-md-min) {
+	.mobile-deemphasize {
+		font-size: $smallH3;
+	}	
 }
 
 @media(min-width: $screen-md-min) {

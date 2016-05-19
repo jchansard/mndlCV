@@ -2,7 +2,7 @@
 <h2>{{title}}</h2>
 <ul class="list-unstyled">
 	{{#each jobs as |job|}}
-    	<li class="emphasize"><span class="bold">{{job.position}}</span> at {{job.company}} <span class="right">({{job.start}} to {{job.end}})</span></li>
+    	<li class="emphasize"><span class="bold">{{job.position}}</span> at {{job.company}} <span class="mobile-deemphasize right-if-wide italic">({{job.start}} to {{job.end}})</span></li>
     	<li>{{job.summary}}</li>
     	<ul>
     		{{#each job.achievs as |achievement|}}

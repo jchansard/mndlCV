@@ -1,0 +1,43 @@
+<div class="navbar-header pull-left">
+    <a class="navbar-brand" href="#"><div class="portrait mobiile"></div></a>
+	<span class="navbar-brand navbar-text">joshchansard.com</span>
+</div>
+<div class="navbar-header pull-right">
+	<div class="btn-group {{if droppedDown "open"}}">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {{action 'toggleDropdown'}}>Navigation <span class="caret"></span></button>
+  		<ul class="dropdown-menu">
+		    {{#each sections as |section|}}
+				<li role="presentation" {{action 'toggleDropdown'}}>{{#link-to "index" (query-params section=section)}}{{section}}{{/link-to}}</li>
+			{{/each}}
+		</ul>
+	</div>
+</div>
+    <!-- <ul class="nav navbar-nav"> -->
+		<!-- <li class="dropdown {{if droppedDown "open"}}">
+			<button class="btn-default navbar-btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {{action 'toggleDropdown'}}>Navigation<span class="caret"></span></button>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">Action</a></li>
+				{{#each sections as |section|}}
+			  		<li role="presentation" {{action 'toggleDropdown'}}>{{#link-to "index" (query-params section=section)}}{{section}}{{/link-to}}</li>
+				{{/each}}
+			</ul>
+		</li> -->
+	<!-- </ul> -->
+<!-- </div> -->
+
+<!-- 
+<div class="navbar-header pull-left">
+	<div class="portrait mobile navbar-brand"></div>
+	<p class="navbar-text">joshchansard.com</p>
+	<ul class="nav navbar-nav">
+		<li class="dropdown {{if droppedDown "open"}}">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" {{action 'toggleDropdown'}}>Navigation<span class="caret"></span></a>
+			<ul class="dropdown-menu pull-right">
+				<li><a href="#">Action</a></li>
+				{{#each sections as |section|}}
+			  		<li role="presentation" {{action 'toggleDropdown'}}>{{#link-to "index" (query-params section=section)}}{{section}}{{/link-to}}</li>
+				{{/each}}
+			</ul>
+		</li>
+	</ul>
+</div> -->

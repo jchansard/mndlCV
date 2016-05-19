@@ -44,19 +44,6 @@ module.exports = function(deployTarget) {
       build: {
         environment: 'production'
       },
-      store: {
-        type: 's3',
-        accessKeyId: 'AKIAJTH5XBJWXBLEJ4HA',
-        secretAccessKey: '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',
-        bucket: 'joshchansard.com'
-      },
-
-      assets: {
-        type: 's3',
-        accessKeyId: 'AKIAJTH5XBJWXBLEJ4HA',
-        secretAccessKey: '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',
-        bucket: 'joshchansard-assets',
-      },
 
       's3-index': {
         accessKeyId: 'AKIAJTH5XBJWXBLEJ4HA',
@@ -69,8 +56,11 @@ module.exports = function(deployTarget) {
       s3: {
         accessKeyId: 'AKIAJTH5XBJWXBLEJ4HA',
         secretAccessKey: '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',
-        bucket: 'joshchansard.com',
-        region: 'us-east-1'
+        bucket: 'joshchansard-assets',
+        region: 'us-east-1',
+        filePattern: '**/*.{js,json,css,png,gif,ico,jpg,map,xml,txt,svg,swf,eot,ttf,woff,woff2}',
+        outputPath: 'tmp/_deploy-dist',
+        allowOverwrite: true
        }
     };
   }

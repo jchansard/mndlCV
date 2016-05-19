@@ -7,13 +7,13 @@
 			"overview": "a JavaScript TDD testing framework",
 			"url": "https://github.com/jchansard/mndltest",
 			"screenshot": [{
-				"src": "/assets/mndltest.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/mndltest.png",
 				"title": "mndltest",
 				"w": 948,
 				"h": 610,
 				"msrc": "(optional) larger image"
 				}],
-			"contribution": "Created from the ground up as a learning experience and for use with personal projects. Supports the most important assertions, can simulate events, and handles outputting results into a beautiful HTML document. I like to use it with sinon.js." 
+			"contribution": "Created from the ground up as a learning experience and for use with personal projects. Supports the most important assertions, can simulate events, and handles outputting results into a beautiful HTML document." 
 		}
 	},{
 		"type": "projects",
@@ -23,7 +23,7 @@
 			"overview": "a testing tool database and search engine",
 			"url": "",
 			"screenshot": [{
-				"src": "/assets/testingtoolssearch.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/testingtoolssearch.png",
 				"title": "Testing Tools Search",
 				"w": 1500,
 				"h": 850
@@ -38,7 +38,7 @@
 			"overview": "documents Epic's processes in an easily-navigable format",
 			"url": "",
 			"screenshot": [{
-				"src": "/assets/processes.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/processes.png",
 				"title": "Software Lifecycle Processes Internal Web Site",
 				"w": 1660,
 				"h": 850
@@ -53,12 +53,12 @@
 			"overview": "my curriculum vitae Ember.js app",
 			"url": "https://github.com/jchansard/mndlCV",
 			"screenshot": [{
-				"src": "/assets/mndlCV.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/mndlCV.png",
 				"title": "mndlCV",
 				"w": 800,
 				"h": 464
 				}],
-			"contribution": "I wanted to create a personal web site, and I wanted to learn Ember.js, and you're looking at the result! As an Ember app, it could easily be reused to build similar resume pages."
+			"contribution": "I wanted to create a personal web site, and I wanted to learn Ember.js, and you're looking at the result! It was made to be easily reusable for similar resume pages."
 		}
 	},{
 		"type": "projects",
@@ -68,7 +68,7 @@
 			"overview": "a JavaScript zombie survival game",
 			"url": "https://github.com/jchansard/mandlegaem",
 			"screenshot": [{
-				"src": "/assets/mndlgaem.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/mndlgaem.png",
 				"title": "mandlegaem",
 				"w": 650,
 				"h": 490
@@ -83,7 +83,7 @@
 			"overview": "another JavaScript strategy game, built using Electron",
 			"url": "https://github.com/jchansard/mandlegaem",
 			"screenshot": [{
-				"src": "/assets/mndlgaem2.png",
+				"src": "https://s3.amazonaws.com/joshchansard-assets/assets/mndlgaem2.png",
 				"title": "mandlegaem2",
 				"w": 639,
 				"h": 570
