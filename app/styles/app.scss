@@ -323,6 +323,11 @@ a.btn-linkedin:link, a.btn-linkedin:visited, a.btn-linkedin:hover {
 
 
 @media (max-width: $screen-md-min) {
+
+	h4 {
+		font-size: $smallH3;
+	}
+
 	.mobile-deemphasize {
 		font-size: $smallH3;
 	}	
