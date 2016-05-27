@@ -10,6 +10,7 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  // app.import('bower_components/jquery.scrollable/dist/amd/jquery.scrollable.js');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //

@@ -16,7 +16,8 @@ export default Ember.Controller.extend({
 
 		// when rendered, scroll to section
 		Ember.run.scheduleOnce('afterRender', function() { 
-			Ember.$('body').animate({
+			var top = Ember.$('#' + section).offset().top
+			Ember.$('body,html').animate({
 				scrollTop: Ember.$('#' + section).offset().top
 			}, 200);
 		});

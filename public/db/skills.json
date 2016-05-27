@@ -31,8 +31,8 @@
 		"id": 4,
 		"attributes":
 			{
-				"name": "Java, C++, Python, and Ruby (with Rails)",
-				"description": "I've worked with each of these languages to varying degrees, in classes I've taken and in personal tinkering projects.",
+				"name": "Automated Testing",
+				"description": "I'm familiar with many frameworks, and a go-to on my team for automated testing concerns.",
 				"type": "technical"
 			}
 		},{
@@ -40,13 +40,22 @@
 		"id": 5,
 		"attributes":
 			{
-				"name": "Visual Basic and MUMPS",
-				"description": "Used at Epic.",
+				"name": "Java, C++, Python, and Ruby (with Rails)",
+				"description": "I've worked with each of these languages to varying degrees, in classes I've taken and in personal tinkering projects. For example, I wrote a database buffer manager in C++, an AI for Nannon in Java, and a tool for generating random realistic test patients in Python.",
 				"type": "technical"
 			}
 		},{
 		"type": "skills",
 		"id": 6,
+		"attributes":
+			{
+				"name": "Visual Basic and MUMPS",
+				"description": "I used these to write easy-to-use healthcare software that handled sending communications between healthcare providers, their patients, and other providers.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 7,
 		"attributes":
 			{
 				"name": "Git and SVN",
@@ -55,20 +64,11 @@
 			}
 		},{
 		"type": "skills",
-		"id": 7,
-		"attributes":
-			{
-				"name": "Linux (and SSH)",
-				"description": "I use a Linux VM for my pesonal projects, and I've used PuTTY for SSH.",
-				"type": "technical"
-			}
-		},{
-		"type": "skills",
 		"id": 8,
 		"attributes":
 			{
-				"name": "SQL",
-				"description": "Used for operational reporting.",
+				"name": "Linux (and SSH)",
+				"description": "I use a Linux virtual machine for my pesonal projects, and I've used PuTTY for SSH.",
 				"type": "technical"
 			}
 		},{
@@ -76,13 +76,22 @@
 		"id": 9,
 		"attributes":
 			{
-				"name": "Microsoft Office",
-				"description": "I'm very comfortable with the MS Office suite, and have written Excel VB macros for various one-off tasks",
+				"name": "SQL",
+				"description": "I used SQL for operational reports that, for example, allowed health- care administrators to ensure that letters (e.g. result letters) are sent to the correct recipient on time.",
 				"type": "technical"
 			}
 		},{
 		"type": "skills",
 		"id": 10,
+		"attributes":
+			{
+				"name": "Microsoft Office",
+				"description": "I'm very comfortable with the MS Office suite, and have written Excel VB macros for various tasks.",
+				"type": "technical"
+			}
+		},{
+		"type": "skills",
+		"id": 11,
 		"attributes":
 			{
 				"name": "Typing",
@@ -91,7 +100,7 @@
 			}
 		},{
 		"type": "skills",
-		"id": 11,
+		"id": 12,
 		"attributes":
 			{
 				"name": "French",
@@ -100,7 +109,7 @@
 			}
 		},{
 		"type": "skills",
-		"id": 12,
+		"id": 13,
 		"attributes":
 			{
 				"name": "Coffee",
